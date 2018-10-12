@@ -17,10 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/oneplus/sdm845-common/proprietary/etc/permissions/vendor-qti-hardware-alarm.xml:system/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/oneplus/sdm845-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/oneplus/sdm845-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/hw/hwcomposer.qcom.so:system/lib64/hw/hwcomposer.qcom.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -33,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/oneplus/sdm845-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so
 
 PRODUCT_PACKAGES += \
