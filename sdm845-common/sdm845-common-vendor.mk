@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/sysconfig/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/sdm845-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/oneplus/sdm845-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
