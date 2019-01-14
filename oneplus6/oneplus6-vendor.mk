@@ -72,6 +72,7 @@ PRODUCT_PACKAGES += \
     libantradio \
     QtiTelephonyService \
     ims \
+    CNEService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     qcrilmsgtunnel \
