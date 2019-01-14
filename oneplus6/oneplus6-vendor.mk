@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,12 +28,44 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/oneplus/oneplus6/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/oneplus/oneplus6/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libConnor_oneplus.so:system/lib64/libConnor_oneplus.so \
     vendor/oneplus/oneplus6/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/oneplus/oneplus6/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libchromaflash.so:system/lib64/libchromaflash.so \
     vendor/oneplus/oneplus6/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libdualcameraddm.so:system/lib64/libdualcameraddm.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libfiltergenerator.so:system/lib64/libfiltergenerator.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libhazebuster.so:system/lib64/libhazebuster.so \
     vendor/oneplus/oneplus6/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/oneplus/oneplus6/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_makeupV2.so:system/lib64/libjni_makeupV2.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_optizoom.so:system/lib64/libjni_optizoom.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_pacprocessor.so:system/lib64/libjni_pacprocessor.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_seestraight.so:system/lib64/libjni_seestraight.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_sharpshooter.so:system/lib64/libjni_sharpshooter.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_stillmore.so:system/lib64/libjni_stillmore.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libopcameralib-em.so:system/lib64/libopcameralib-em.so \
     vendor/oneplus/oneplus6/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libseemore.so:system/lib64/libseemore.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libseestraight.so:system/lib64/libseestraight.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/libubifocus.so:system/lib64/libubifocus.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper.so:system/lib64/vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper.so \
+    vendor/oneplus/oneplus6/proprietary/lib64/vendor.oneplus.camera.CameraHIDL@1.0.so:system/lib64/vendor.oneplus.camera.CameraHIDL@1.0.so \
     vendor/oneplus/oneplus6/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so
 
 PRODUCT_PACKAGES += \
@@ -43,4 +75,5 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     qcrilmsgtunnel \
+    vendor.oneplus.camera.CameraHIDL-V1.0-java \
     dashd
