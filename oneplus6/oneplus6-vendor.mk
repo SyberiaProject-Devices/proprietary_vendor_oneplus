@@ -166,6 +166,7 @@ PRODUCT_PACKAGES += \
     NxpSecureElement \
     QtiTelephonyService \
     ims \
+    imssettings \
     CNEService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
