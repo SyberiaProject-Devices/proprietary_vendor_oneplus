@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
     vendor/oneplus/oneplus6/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/oneplus/oneplus6/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/oneplus/oneplus6/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/oneplus/oneplus6/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/oneplus/oneplus6/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oneplus/oneplus6/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
