@@ -190,6 +190,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
+    OPNetworkSetting \
     WfdService \
     dpmserviceapp \
     qcrilmsgtunnel \
