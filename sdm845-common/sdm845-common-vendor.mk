@@ -188,13 +188,12 @@ PRODUCT_PACKAGES += \
     NxpNfcNci \
     NxpSecureElement \
     QtiTelephonyService \
-    ims \
-    imssettings \
     CNEService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     WfdService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     QPerformance \
     UxPerformance \
