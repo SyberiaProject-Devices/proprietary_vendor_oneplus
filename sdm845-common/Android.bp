@@ -37,25 +37,6 @@ cc_prebuilt_library_shared {
 	prefer: true,
 }
 
-cc_prebuilt_library_shared {
-	name: "libplatformconfig",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libplatformconfig.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libplatformconfig.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
 android_app_import {
 	name: "NxpNfcNci",
 	owner: "oneplus",
@@ -70,16 +51,6 @@ android_app_import {
 	name: "NxpSecureElement",
 	owner: "oneplus",
 	apk: "proprietary/app/NxpSecureElement/NxpSecureElement.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "workloadclassifier",
-	owner: "oneplus",
-	apk: "proprietary/app/workloadclassifier/workloadclassifier.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -152,18 +123,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "QPerformance",
-	owner: "oneplus",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "oneplus",
-	jars: ["proprietary/framework/UxPerformance.jar"],
 }
 
 dex_import {
