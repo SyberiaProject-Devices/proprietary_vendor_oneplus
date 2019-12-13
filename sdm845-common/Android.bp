@@ -58,16 +58,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "workloadclassifier",
-	owner: "oneplus",
-	apk: "proprietary/app/workloadclassifier/workloadclassifier.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "HotwordEnrollmentOKGoogleWCD9340",
 	owner: "oneplus",
 	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
@@ -133,18 +123,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "QPerformance",
-	owner: "oneplus",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "oneplus",
-	jars: ["proprietary/framework/UxPerformance.jar"],
 }
 
 dex_import {
