@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
     vendor/oneplus/sdm845-common/proprietary/product/app/CallFeaturesSetting/CallFeaturesSetting.apk:$(TARGET_COPY_OUT_PRODUCT)/app/CallFeaturesSetting/CallFeaturesSetting.apk \
     vendor/oneplus/sdm845-common/proprietary/product/app/DeviceInfo/DeviceInfo.apk:$(TARGET_COPY_OUT_PRODUCT)/app/DeviceInfo/DeviceInfo.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/SimSettings/SimSettings.apk:$(TARGET_COPY_OUT_PRODUCT)/app/SimSettings/SimSettings.apk \
     vendor/oneplus/sdm845-common/proprietary/product/app/remotesimlockservice/remotesimlockservice.apk:$(TARGET_COPY_OUT_PRODUCT)/app/remotesimlockservice/remotesimlockservice.apk \
     vendor/oneplus/sdm845-common/proprietary/product/app/uceShimService/uceShimService.apk:$(TARGET_COPY_OUT_PRODUCT)/app/uceShimService/uceShimService.apk \
     vendor/oneplus/sdm845-common/proprietary/product/app/uimgbaservice/uimgbaservice.apk:$(TARGET_COPY_OUT_PRODUCT)/app/uimgbaservice/uimgbaservice.apk \
@@ -449,7 +448,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/dpmserviceapp/dpmserviceapp.apk
+    vendor/oneplus/sdm845-common/proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/dpmserviceapp/dpmserviceapp.apk \
+    vendor/oneplus/sdm845-common/proprietary/bin/dashd:$(TARGET_COPY_OUT_SYSTEM)/bin/dashd
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -470,5 +470,4 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     qcnvitems \
-    qcrilhook \
-    dashd
+    qcrilhook
