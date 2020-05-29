@@ -115,10 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ultra_violet.proto \
     vendor/oneplus/sdm845-common/proprietary/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/oneplus/sdm845-common/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
-    vendor/oneplus/sdm845-common/proprietary/framework/ActivityExt.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/ActivityExt.jar \
-    vendor/oneplus/sdm845-common/proprietary/framework/ConnectivityExt.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/ConnectivityExt.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/com.nxp.nfc.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.nxp.nfc.jar \
-    vendor/oneplus/sdm845-common/proprietary/framework/oem-services.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/oem-services.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
@@ -198,19 +195,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrcinterface.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/vendor.qti.hardware.audiohalext-utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.audiohalext-utils.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
-    vendor/oneplus/sdm845-common/proprietary/product/app/CallFeaturesSetting/CallFeaturesSetting.apk:$(TARGET_COPY_OUT_PRODUCT)/app/CallFeaturesSetting/CallFeaturesSetting.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/DeviceInfo/DeviceInfo.apk:$(TARGET_COPY_OUT_PRODUCT)/app/DeviceInfo/DeviceInfo.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/remotesimlockservice/remotesimlockservice.apk:$(TARGET_COPY_OUT_PRODUCT)/app/remotesimlockservice/remotesimlockservice.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/uceShimService/uceShimService.apk:$(TARGET_COPY_OUT_PRODUCT)/app/uceShimService/uceShimService.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/uimgbaservice/uimgbaservice.apk:$(TARGET_COPY_OUT_PRODUCT)/app/uimgbaservice/uimgbaservice.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/uimlpaservice/uimlpaservice.apk:$(TARGET_COPY_OUT_PRODUCT)/app/uimlpaservice/uimlpaservice.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/uimremoteclient/uimremoteclient.apk:$(TARGET_COPY_OUT_PRODUCT)/app/uimremoteclient/uimremoteclient.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/app/uimremoteserver/uimremoteserver.apk:$(TARGET_COPY_OUT_PRODUCT)/app/uimremoteserver/uimremoteserver.apk \
     vendor/oneplus/sdm845-common/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/oneplus/sdm845-common/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/oneplus/sdm845-common/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
-    vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/RemoteSimlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/RemoteSimlock.xml \
-    vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
@@ -218,14 +205,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/dpmapi.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/embms-noship_product_privapp_permissions_qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms-noship_product_privapp_permissions_qti.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/embms.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms.xml \
-    vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/lpa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/lpa.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/priv-app-permission-google_auto.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/priv-app-permission-google_auto.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
-    vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/uimremoteclient.xml \
-    vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/uimremoteserver.xml \
-    vendor/oneplus/sdm845-common/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml \
     vendor/oneplus/sdm845-common/proprietary/product/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/QtiTelephonyServicelibrary.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qti.dpmframework.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
@@ -240,14 +223,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/framework/dpmapi.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/dpmapi.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/embmslibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/embmslibrary.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
-    vendor/oneplus/sdm845-common/proprietary/product/framework/uimlpalibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimlpalibrary.jar \
-    vendor/oneplus/sdm845-common/proprietary/product/framework/uimremoteclientlibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimremoteclientlibrary.jar \
-    vendor/oneplus/sdm845-common/proprietary/product/framework/uimremoteserverlibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimremoteserverlibrary.jar \
-    vendor/oneplus/sdm845-common/proprietary/product/framework/uimremotesimlocklibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimremotesimlocklibrary.jar \
-    vendor/oneplus/sdm845-common/proprietary/product/framework/uimservicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimservicelibrary.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/vendor.qti.data.factory-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/vendor.qti.data.factory-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.data.factory-V2.0-java.jar \
-    vendor/oneplus/sdm845-common/proprietary/product/framework/vendor.qti.data.factory-V2.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.data.factory-V2.1-java.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar \
     vendor/oneplus/sdm845-common/proprietary/product/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar \
@@ -283,18 +260,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvt.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvtextutils.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvtutils.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdiag_system.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmctmgr.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmfdmgr.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/libdpmframework.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmframework.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmtcm.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimscamera_jni.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimsmedia_jni.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib/libtrigger-handler.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libtrigger-handler.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib/libupdateprof.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libupdateprof.qti.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.data.factory@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.data.factory@2.0.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.data.factory@2.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so \
@@ -317,7 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.ims@1.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.ims@1.3.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
@@ -325,13 +297,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.qtiradio@2.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.qtiradio@2.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.qtiradio@2.3.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.qtiradio@2.4.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.uim@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.uim@1.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.uim@1.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.scve.objecttracker@1.0.so \
@@ -371,24 +341,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvtutils.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdiag_system.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmctmgr.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmfdmgr.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libdpmframework.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmframework.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmtcm.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqmi_cci_system.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsdm-disp-apis.qti.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/libtrigger-handler.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtrigger-handler.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/libupdateprof.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libupdateprof.qti.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.3.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.data.factory@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.data.factory@2.0.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so \
@@ -411,7 +376,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
@@ -419,13 +383,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.uim@1.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so \
@@ -447,8 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/oneplus/sdm845-common/proprietary/product/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk \
-    vendor/oneplus/sdm845-common/proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/dpmserviceapp/dpmserviceapp.apk \
     vendor/oneplus/sdm845-common/proprietary/bin/dashd:$(TARGET_COPY_OUT_SYSTEM)/bin/dashd
 
 PRODUCT_PACKAGES += \
