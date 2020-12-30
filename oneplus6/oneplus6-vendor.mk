@@ -1507,7 +1507,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     libMpeg4SwEncoder \
-    vendor.qti.hardware.audiohalext@1.0 \
     libqct_resampler \
     NxpNfcNci \
     NxpSecureElement \
