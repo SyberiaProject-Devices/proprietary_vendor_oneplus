@@ -31,7 +31,7 @@
       "rail_on_state":{ "type": "int", "ver": "0",
         "data": "1"
       },
-          "vddio_rail":{ "type": "str", "ver": "0",
+	  "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
       },
       "rigid_body_type":{ "type": "int", "ver": "0",

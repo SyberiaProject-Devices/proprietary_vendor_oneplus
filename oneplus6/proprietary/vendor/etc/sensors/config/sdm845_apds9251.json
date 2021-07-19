@@ -106,7 +106,7 @@
           "data": "0.0"
         }
       }
-    },		
+    },
     ".ambient_temperature":{
       "owner": "sns_apds9251",
       ".fac_cal":{
@@ -136,6 +136,6 @@
           "data": "0.0"
         }
       }
-    }	
+    }
   }
 }
