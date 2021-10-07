@@ -285,6 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/oneplus/oneplus6/proprietary/vendor/etc/init/init.opf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.opf.rc \
     vendor/oneplus/oneplus6/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
+    vendor/oneplus/oneplus6/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/oneplus/oneplus6/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/oneplus/oneplus6/proprietary/vendor/etc/init/mutualex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mutualex.rc \
     vendor/oneplus/oneplus6/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
@@ -573,7 +574,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libVDHDRAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDHDRAPI.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/lib_EagleEye.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_EagleEye.so \
-    vendor/oneplus/oneplus6/proprietary/vendor/lib/lib_bokehshap.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bokehshap.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/lib_oneplus_facebeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/lib_oneplus_watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_oneplus_watermark.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
@@ -744,6 +744,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_fastRPC_util.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_registry_skel.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
@@ -1141,6 +1142,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
@@ -1297,6 +1299,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/oneplus/oneplus6/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_Codec_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Codec_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oneplus/oneplus6/proprietary/vendor/odm/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/oneplus/oneplus6/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/oneplus/oneplus6/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/oneplus/oneplus6/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
