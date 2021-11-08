@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/fajita/proprietary/system_ext/lib/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oneplus.hardware.camera@1.0.so \
     vendor/oneplus/fajita/proprietary/system_ext/lib64/libCameraMDMHelper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libCameraMDMHelper.so \
     vendor/oneplus/fajita/proprietary/system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so \
     vendor/oneplus/fajita/proprietary/system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
@@ -31,6 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/etc/camera/ashdr/ncf_pack_imx519.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx519.ncf \
     vendor/oneplus/fajita/proprietary/vendor/etc/camera/attribute.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/attribute.model \
     vendor/oneplus/fajita/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/oneplus/fajita/proprietary/vendor/etc/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tfa98xx.cnt \
+    vendor/oneplus/fajita/proprietary/vendor/etc/firmware/tp/fw_synaptics_18801.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tp/fw_synaptics_18801.img \
     vendor/oneplus/fajita/proprietary/vendor/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc \
     vendor/oneplus/fajita/proprietary/vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc \
     vendor/oneplus/fajita/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
@@ -94,8 +97,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/oneplus6_vstab_db_1_1080p_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/lib/camera/oneplus6_vstab_db_1_1080p_video_30fps.config \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/oneplus6_vstab_db_1_720p_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/lib/camera/oneplus6_vstab_db_1_720p_video_30fps.config \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/titan17x_usecases.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/titan17x_usecases.bin \
+    vendor/oneplus/fajita/proprietary/vendor/lib/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/fp_hal_extension.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib/hw/goodix.fod.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/goodix.fod.sdm845.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libSTDualCamCaptureBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSTDualCamCaptureBokeh.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libSTDualCamPreviewBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSTDualCamPreviewBokeh.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libSTdisp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSTdisp.so \
@@ -105,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/lib/libVDDualCameraBlurlessAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDDualCameraBlurlessAPI.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libVDHDRAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDHDRAPI.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/lib_EagleEye.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_EagleEye.so \
-    vendor/oneplus/fajita/proprietary/vendor/lib/lib_bokehshap.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bokehshap.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/lib_oneplus_facebeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/lib_oneplus_watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_oneplus_watermark.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_bokeh_api.so \
@@ -122,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ud_hal.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libmms_gyro_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_gyro_vstab.so \
@@ -138,11 +143,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/oneplus/fajita/proprietary/vendor/lib/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.hardware.camera@1.0.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib64/hw/goodix.fod.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.fod.sdm845.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ud_hal.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
@@ -153,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.camera@1.0.so
 
