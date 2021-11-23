@@ -19,10 +19,3 @@
 soong_namespace {
 }
 
-dex_import {
-	name: "vendor.oneplus.hardware.camera-V1.0-java",
-	owner: "oneplus",
-	jars: ["proprietary/system_ext/framework/vendor.oneplus.hardware.camera-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
