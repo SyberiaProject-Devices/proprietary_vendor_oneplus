@@ -799,7 +799,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
-    vendor/oneplus/sdm845-common/proprietary/vendor/lib/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.fingerprint.extension@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.hardware.camera@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib/vendor.oneplus.hardware.param@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.hardware.param@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
@@ -1136,7 +1135,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib64/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.eventprocessor@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib64/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpese@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@1.0.so \
-    vendor/oneplus/sdm845-common/proprietary/vendor/lib64/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.fingerprint.extension@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib64/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.camera@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/vendor/lib64/vendor.oneplus.hardware.drmkey@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.drmkey@1.0.so \
